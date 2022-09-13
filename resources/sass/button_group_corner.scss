@@ -1,0 +1,12 @@
+// usunięcie zaokrągleń przycisków formularza umieszczonych w grupie przycisków
+.btn-group > form:not(:last-child) > .btn
+{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group > form:not(:first-child) > .btn
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
